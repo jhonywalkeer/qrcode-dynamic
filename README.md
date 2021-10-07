@@ -1,45 +1,45 @@
-## 💻 Resumo do projeto
+## 💻 Project summary
 
-Este repo não possui uma interface gráfica amigavél, a proposta do mesmo é a apenas a funcionalidade de gerar o QR com o conteúdo que o usuário desejasse, foi utilizado o Next.js para geração de novos QR codes sem a necessidade de "carregar" a página usufruindo do server side rendering.
+This repo does not have a user-friendly graphical interface, its proposal is just the functionality to generate the QR with the content that the user wanted, Next.js was used to generate new QR codes without the need to "load" the page taking advantage of server side rendering.
 
-## 🛠 Tecnologias
+## 🛠 Technologies
 
-Projeto foi construído utilizando **Node.js** e o **Next.js** e as seguintes dependências:
+Project was built using **Node.js** and **Next.js** and the following dependencies:
 
-- **[QRcode SVG](https://www.npmjs.com/package/qrcode-svg)** é uma lib para gerar uma imagem SVG de QR Code em Node.js com qualquer conteúdo que você deseja.
+- **[QRcode SVG](https://www.npmjs.com/package/qrcode-svg)** - This library has been written to generate a SVG image of QR Code in Node.js
 
-## 📕Como usar
+## 📕 How to use:
 
-Para utilizar basta executar localmente e no corpo do link passar o site ou texto que deseja gerar, conforme exemplo abaixo:
+To use it, just run it locally and in the body of the link, pass the site or text you want to generate, as shown below:
 
 ```bash
 http://localhost:3000/api?url=TEXTO
 ```
 
-Lembrando que pode colocar espaço e/ou acentos e caracteres especiais e pressionar a tecla `enter` que será corrigido (sem remover) automaticamente. Agora caso deseje gerar um QR Code de link basta fazer da seguinte forma:
+Remembering that you can put space and/or accents and special characters and press the `enter` key which will be corrected (without removing) automatically. Now if you want to generate a QR Code link, just do as follows:
 
 ```bash
 http://localhost:3000/api?url=https://teste.com.br
 ```
 
-## 🔨 Instalação Local
+## 🔨 Local Installation
 
-Você precisará do [Node.js](https://nodejs.org) versão 10 ou superior, instalado no seu computador para continuar.
+You need [Node.js](https://nodejs.org) version 10 or higher, but if you want to use [Yarn](https://yarnpkg.com/) you can also just have it on your computer to continue.
 
 ```bash
 git clone https://github.com/JhonyWalker-pixel/qrcode-dynamic.git
 
 $ cd qrcode-dynamic
-$ npm install
+$ npm install or yarn install
 ```
 
-E agora para rodar nosso projeto localmente basta executar o seguinte comando:
+And now, to run locally, just run the following command:
 
 ```bash
 $ cd qrcode-dynamic
-$ npm start
+$ npm start or yarn start
 ```
 
 ## 📖 License
 
-Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under license from MIT. See the [LICENSE](LICENSE.md) file for more details.
