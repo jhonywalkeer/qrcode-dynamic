@@ -13,7 +13,7 @@ Project was built using **Node.js** and **Next.js** and the following dependenci
 To use it, just run it locally and in the body of the link, pass the site or text you want to generate, as shown below:
 
 ```bash
-http://localhost:3000/api?url=TEXTO
+http://localhost:3000/api?url= TEXT OR LINK OF YOUR CHOICE
 ```
 
 Remembering that you can put space and/or accents and special characters and press the `enter` key which will be corrected (without removing) automatically. Now if you want to generate a QR Code link, just do as follows:
