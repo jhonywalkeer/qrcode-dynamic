@@ -27,7 +27,7 @@ http://localhost:3000/api?url=https://teste.com.br
 You need [Node.js](https://nodejs.org) version 10 or higher, but if you want to use [Yarn](https://yarnpkg.com/) you can also just have it on your computer to continue.
 
 ```bash
-git clone https://github.com/JhonyWalker-pixel/qrcode-dynamic.git
+git clone https://github.com/jhonywalkeer/qrcode-dynamic.git
 
 $ cd qrcode-dynamic
 $ npm install or yarn install
